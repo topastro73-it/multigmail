@@ -1,0 +1,14 @@
+{
+  "name": "multigmail-marketplace",
+  "description": "Marketplace del plugin MultiGmail per Claude Code: lettura Gmail multi-account in sola lettura.",
+  "owner": {
+    "name": "topastro73-it"
+  },
+  "plugins": [
+    {
+      "name": "multigmail",
+      "source": "./",
+      "description": "Leggi la tua Gmail da più account in Claude Code, con selezione dell'account e login OAuth guidato. Sola lettura."
+    }
+  ]
+}

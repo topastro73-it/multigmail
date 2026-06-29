@@ -1,0 +1,9 @@
+.venv/
+blog/
+.claude/settings.local.json
+__pycache__/
+*.pyc
+.pytest_cache/
+# i segreti vivono in ~/.multigmail/, ma per sicurezza:
+credentials.json
+tokens/

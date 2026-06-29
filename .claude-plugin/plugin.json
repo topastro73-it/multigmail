@@ -1,0 +1,17 @@
+{
+  "name": "multigmail",
+  "version": "0.1.0",
+  "description": "Leggi la tua Gmail da più account in Claude Code: ti chiede su quale account operare e gestisce login OAuth e lettura email. Sola lettura.",
+  "author": {
+    "name": "topastro73-it"
+  },
+  "homepage": "https://github.com/topastro73-it/multigmail",
+  "repository": "https://github.com/topastro73-it/multigmail",
+  "license": "MIT",
+  "keywords": ["gmail", "email", "mcp", "oauth", "multi-account", "read-only"],
+  "mcpServers": {
+    "multigmail": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/run.sh"
+    }
+  }
+}
